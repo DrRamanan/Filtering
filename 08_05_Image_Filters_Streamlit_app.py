@@ -13,7 +13,7 @@ def get_image_download_link(img, filename, text):
     return href
 
 # Set title.
-st.title('Artistic Image Filters')
+st.title('Shrias Bildverarbeitung')
 
 # Upload image.
 uploaded_file = st.file_uploader('Choose an image file:', type=['png','jpg'])
